@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <title>Linear Gradient Generator</title>
+</head>
+<body>
+    <div class="contain">
+        <h3>LINEAR GRADIENT GENERATOR</h3>
+        <div class="backgr">
+            <div id="back"></div>
+        </div>
+
+        <form action="" id="form">
+            <label for="">Direction : </label>
+            <select id="graddirection">
+                <option>to right</option>
+                <option>to left</option>
+                <option>to top</option>
+                <option>to bottom</option>
+            </select> 
+            <br>
+            <label for="start">Start Color : </label>
+            <input type="color" name="startcolor" id="startcolor">
+            <label for="end">End Color : </label>
+            <input type="color" name="endcolor" id="endcolor"> 
+        </form>
+
+        <input type="text" name="result" id="result">
+    </div>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
